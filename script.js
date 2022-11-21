@@ -70,9 +70,9 @@ function isLeapYear(year) {
   return false;
 }
 function getNextDate(date) {
-  var day = date.day + 1; //1
-  var month = date.month; //2
-  var year = date.year; //2020
+  var day = date.day + 1; 
+  var month = date.month; 
+  var year = date.year; 
 
   var daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
