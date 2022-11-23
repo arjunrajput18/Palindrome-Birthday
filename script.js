@@ -170,12 +170,12 @@ function checkhandler() {
     var isPalindrome=checkPalindromeForAllDateFormats(date);
 
     if(isPalindrome){
-
-        output.innerText = "Yes your birthday is a plindrome"
+        
+        output.innerText = "Yes your birthday is a palindrome 🍿😍"
     }
     else{
         var [count, nextDate] = getNextPalindromeDate(date);
-        output.innerText = `Oops! The closest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${count} days!`;
+        output.innerText = `Oops! The closest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${count} days!🥶🥶`;
       }
    
   }

@@ -1,0 +1,31 @@
+:root{
+    --primary-color: white;
+    --secondary-color:#a21caf;
+}
+body{
+    text-align: center;
+    background-image: url(/images/birthday3.svg);
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+h2{
+    padding-top: 4rem;
+}
+#btn-check{
+    margin-top: 2rem;
+    padding: 0.5rem 0.8rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 0.5rem; 
+}
+
+label{
+    font-family: sans-serif;
+    display: block;
+}
+#output{
+    font-weight: bold;
+    font-size: larger;
+    margin: 2rem;
+}
