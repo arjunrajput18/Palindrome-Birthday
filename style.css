@@ -12,6 +12,12 @@ body{
 h2{
     padding-top: 4rem;
 }
+input {
+    
+    padding: 0.5rem;
+    margin: 0rem 0.7rem;
+    border-radius: 0.5rem;
+  }
 #btn-check{
     margin-top: 2rem;
     padding: 0.5rem 0.8rem;
